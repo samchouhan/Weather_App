@@ -1,4 +1,5 @@
 #Weather APP
+#Now obvioulsy this is just a basic estimation based on the API given not absolutly correct stats
 import requests
 
 def get_weather(city):
@@ -23,5 +24,6 @@ def get_weather(city):
 
 city_name = input("Enter city name: ")
 get_weather(city_name)
+
 
 print("\nThank you for using the Weather App! ☀️🌧️❄️")
